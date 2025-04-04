@@ -9,6 +9,7 @@ Prerequisites
         • SSH Client: An SSH client like PuTTY or the built-in terminal on Linux/MacOS is required to connect to your EC2 instance.
         • OpenVPN Client: You will need the OpenVPN client installed on your local machine to connect to the VPN.
         • IAM Permissions: Ensure that your AWS IAM user has the required permissions to launch EC2 instances, modify security groups, and access the OpenVPN server.
+        
 1. Launch EC2 Instance on AWS
 Follow the steps below to launch your EC2 instance to host the OpenVPN server.
 Step 1: Login to AWS Console
@@ -56,6 +57,7 @@ Step 2: Connect to the Instance
 Step 3: Complete the OpenVPN Setup
         • Once connected, OpenVPN Access Server installation will automatically begin. Simply press Enter when prompted to allow the installation process to complete.
         • After the installation is finished, a terminal message will display the admin password for the OpenVPN Access Server. Copy this password.
+
 
 3. Configure OpenVPN Access Server
 Step 1: Access the Admin Interface
